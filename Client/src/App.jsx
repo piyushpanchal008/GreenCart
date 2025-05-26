@@ -18,6 +18,7 @@ import AddProduct from './pages/seller/AddProduct'
 import ProductList from './pages/seller/ProductList'
 import Orders from './pages/seller/Orders'
 import Loading from './components/Loading';
+import { Analytics } from '@vercel/analytics/next';
 
 
 
@@ -51,7 +52,7 @@ const App = () => {
       </div>
       {!IsSellerPath && <Footer />}
       
-      
+      <Analytics />
       
     </div>
 
