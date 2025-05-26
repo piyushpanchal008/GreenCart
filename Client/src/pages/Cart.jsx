@@ -4,7 +4,7 @@ import { assets, dummyAddress } from "../assets/assets"
 import toast from "react-hot-toast"
 
 const Cart = () => {
-    const{products,currency,CartItems,removeFromCart,getCartCount,updateCartItem,user,navigate,getCartAmount,axios,setCartItems,clearCart}=useAppContext()
+    const{products,currency,CartItems,removeFromCart,getCartCount,updateCartItem,user,navigate,getCartAmount,axios,setCartItems}=useAppContext()
     const[cartArray,setCartArray]=useState([])
     const[addresses,setAddresses]=useState([])
     const [showAddress, setShowAddress] = useState(false)
@@ -54,7 +54,7 @@ const Cart = () => {
                 if(data.success){
                     toast.success(data.message)
                     setCartItems({});
-                    clearCart();
+                    
                     navigate('/my-orders')
                 }
                 else{
