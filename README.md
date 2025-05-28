@@ -13,16 +13,16 @@
 ![GreenCart Homepage](https://github.com/piyushpanchal008/GreenCart/blob/main/HOmepage.png?raw=true)
 
 ### 🛒 Cart Page
-![Cart Screenshot]()
+![Cart Screenshot](https://github.com/piyushpanchal008/GreenCart/blob/main/Cart.png?raw=true)
 
 ### 🔐 Login Page
-![Login Screenshot]()
+![Login Screenshot](https://github.com/piyushpanchal008/GreenCart/blob/main/User-Login.png?raw=true)
 
 ### 🛍️ Product Detail Page
-![Product Detail Screenshot]()
+![Product Detail Screenshot](https://github.com/piyushpanchal008/GreenCart/blob/main/Product-Details.png?raw=true)
 
 ### 🧑‍💼 Seller Dashboard
-![Seller Dashboard Screenshot]()
+![Seller Dashboard Screenshot](https://github.com/piyushpanchal008/GreenCart/blob/main/Seller_dashbord.png?raw=true)
 <!-- Add your actual screenshot links here -->
 
 ---
