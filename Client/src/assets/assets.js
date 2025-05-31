@@ -21,6 +21,8 @@ import trust_icon from "./trust_icon.svg";
 import black_arrow_icon from "./black_arrow_icon.svg";
 import white_arrow_icon from "./white_arrow_icon.svg";
 import main_banner_bg from "./main_banner_bg.png";
+import main_banner_bg_2 from "./main_banner_bg_2.png"
+import main_banner_bg_3 from "./main_banner_bg_3.png"
 import main_banner_bg_sm from "./main_banner_bg_sm.png";
 import bottom_banner_image from "./bottom_banner_image.png";
 import bottom_banner_image_sm from "./bottom_banner_image_sm.png";
@@ -69,6 +71,10 @@ import vanilla_muffins_image from "./vanilla_muffins_image.png";
 import quinoa_image from "./quinoa_image.png";
 import brown_rice_image from "./brown_rice_image.png";
 import barley_image from "./barley_image.png";
+import seeds from "./seeds.png";
+import plant from "./plant.png";
+import tools from "./tools.png";
+
 
 export const assets = {
   logo,
@@ -93,6 +99,8 @@ export const assets = {
   black_arrow_icon,
   white_arrow_icon,
   main_banner_bg,
+  main_banner_bg_2,
+  main_banner_bg_3,
   main_banner_bg_sm,
   bottom_banner_image,
   bottom_banner_image_sm,
@@ -143,6 +151,24 @@ export const categories = [
     image: grain_image,
     bgColor: "#F1E3F9",
   },
+  {
+    text: "Seeds",
+  image: seeds,  
+  path: "seeds",
+  bgColor: "#F3FFE6",
+  },
+  {
+    text: "Plants",
+  image: plant,
+  path: "plants",
+  bgColor: "#E6F6FF"
+  },
+  {
+  text: "Gardening Tools",
+  image: tools,
+  path: "tools",
+  bgColor: "#FFF5E6",
+},
 ];
 
 export const footerLinks = [

@@ -69,10 +69,11 @@ export const AppContextProvider=({children})=>{
             if(data.success){
                 setProducts(data.products)
             }else{
-                toast.error(data.message)
+                console.log('API returned failure:', data);
+                toast.error(data.message || "Failed to fetch products")
             }
         } catch (error) {
-            toast.error(error.message)
+            toast.error(error?.response?.data?.message || error.message || "Failed to fetch products")
         }
     }
 
