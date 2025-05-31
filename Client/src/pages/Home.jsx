@@ -6,7 +6,7 @@ import ProductCard from '../components/ProductCard'
 import BottomBanner from '../components/BottomBanner'
 import NewsLetter from '../components/NewsLetter'
 import Footer from '../components/Footer'
-
+import ChatWidget from "../components/ChatWidget";
 const Home = () => {
   return (
     <div className='mt-10'>
@@ -16,7 +16,7 @@ const Home = () => {
         <ProductCard />
         <BottomBanner />
         <NewsLetter />
-        
+        <ChatWidget />
     </div>
   )
 }
