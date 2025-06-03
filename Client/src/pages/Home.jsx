@@ -7,12 +7,18 @@ import BottomBanner from '../components/BottomBanner'
 import NewsLetter from '../components/NewsLetter'
 import Footer from '../components/Footer'
 import ChatWidget from "../components/ChatWidget";
+
+import AdBanner from "../AdBanner.js/AdBanner";
+      
+      
+
 const Home = () => {
   return (
     <div className='mt-10'>
         <MainBanner />
         <Categories />
         <BestSeller />
+        <AdBanner />
         <ProductCard />
         <BottomBanner />
         <NewsLetter />
